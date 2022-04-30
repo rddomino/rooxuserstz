@@ -1,0 +1,77 @@
+.form-inner {
+    margin-top: 19px;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 438px;
+    height: 490px;
+}
+.form {
+    margin-top: 20px;
+}
+.list-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 3px;    
+}
+.edit {
+    position: absolute;
+    margin-top: -5px;
+    width: 117px;
+    height: 27px;
+    right: 0px;
+    top: 3px;
+}
+input {
+    margin-left: 12px;
+    margin-top: 3px;
+    height: 22px;
+    width: 211px;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.form-label {
+    display: block;
+    margin-left: 12px;
+    margin-top: 10px;
+
+    font-weight: 400;
+    font-size: 10px; 
+}
+.comment {
+    position: relative;
+    margin-left: 12px;
+    margin-top: 3px;
+    width: 418px;
+    height: 55px;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+    resize: none;
+}
+.submit {
+    position: absolute;
+    margin-top: 85px;
+    right: 0px;
+    width: 85px;
+    height: 24px;
+    background-color: #52CF4F;
+}
+::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+button:disabled,
+button[disabled]{
+    background: #AFAFAF;
+}
+.error {
+    border: 1px solid #D91313;
+}
+input:read-only,
+input[read-only] {
+    color: rgba(0, 0, 0, 0.3);
+}

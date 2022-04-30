@@ -1,0 +1,39 @@
+.aside {
+    width: 152px;
+    min-height: 1028px;
+    background-color: #BDBDBD;
+}
+.aside div {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 24px;
+    
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 0 5px 0;
+    
+
+    background: #4B51EF;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.town {
+    width: 86px;
+}
+.company {
+    width: 105px;
+}
